@@ -757,12 +757,12 @@
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
             
-            // Here, you would typically send the data to your server
+            // Here you would typically send the data to your server
             // For this example, we'll just show an alert
             alert(`Thank you, ${name}! We've received your information and will contact you at ${email} shortly.`);
             
             // Reset the form
-            .reset();
+            this.reset();
             
             // Scroll to top for better UX
             window.scrollTo({
